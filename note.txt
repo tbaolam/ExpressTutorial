@@ -1,0 +1,9 @@
+EXPRESS MIDDLEWARE
+    - Happens between request and response / getting and sending
+    - Run in order of definition. If you wants a middleware run globally, have it on top of the codes.
+    - Single action middleware
+        + inside app.get() function, have parameters of path and req, res
+        + 
+    - You can access req and res parameters.
+        + use for authentication.
+    - next() doesnt exit the function, it will come back, you have to use return.
