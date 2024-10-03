@@ -7,3 +7,5 @@ EXPRESS MIDDLEWARE
     - You can access req and res parameters.
         + use for authentication.
     - next() doesnt exit the function, it will come back, you have to use return.
+
+More to learn
